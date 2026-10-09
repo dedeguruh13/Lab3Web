@@ -1,0 +1,86 @@
+/* CSS Eksternal - Praktikum 3 CSS Dasar */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background: #f5f7fa;
+}
+
+header {
+    min-height: 80px;
+    border-bottom: 1px solid #77CCEF;
+    background: white;
+}
+
+h1 {
+    font-size: 24px;
+    color: #0F189F;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 0;
+}
+
+h1 i {
+    color: #6d6a6b;
+}
+
+nav {
+    background: #20A759;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav .active,
+nav a:hover {
+    background: #0B6B3A;
+}
+
+/* ID Selector */
+#intro {
+    background: #418fb1;
+    border: 1px solid #099249;
+    min-height: 100px;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 900px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+#intro h1,
+#intro h2 {
+    text-align: left;
+    border: 0;
+    color: #fff;
+}
+
+/* Class Selector */
+.button {
+    padding: 15px 20px;
+    background: #bebcbd;
+    color: #fff;
+    display: inline-block;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background: #E42A42;
+}
+
+.content {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+}
